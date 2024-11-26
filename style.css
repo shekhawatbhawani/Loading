@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    
+}
+.container{
+    width: 90%;
+}
+
+h1 {
+    margin: 20px 0px;
+}
+
+span{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.parent {
+   
+    background-color: white;
+    height: 20px;
+    width: 50%;
+    margin: 20px auto;
+    border-radius: 10px;
+    
+}
+
+.child {
+    border-radius: 10px;
+    height: 20px;
+}
